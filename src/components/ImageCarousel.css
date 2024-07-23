@@ -1,0 +1,18 @@
+.carousel-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 500px; /* Ajusta esta altura según tus necesidades */
+  object-fit: cover; /* Esta propiedad asegura que las imágenes mantengan su proporción y se ajusten al contenedor */
+}
+

@@ -1,0 +1,7 @@
+/* src/components/Map.css */
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  

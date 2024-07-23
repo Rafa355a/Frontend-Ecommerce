@@ -1,0 +1,56 @@
+/* src/pages/CartPage.css */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  max-width: 800px;
+  margin: 1rem auto;
+}
+
+.cart-item-image {
+  height: 100px;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-item-actions button {
+  margin: 0 0.5rem;
+}
+
+.cart-item-actions .delete-button {
+  color: red;
+}
+
+.cart-item-price {
+  color: green;
+}
+
+.total-price {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.total-price-value {
+  color: black;
+}
+
+.cart-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.cart-buttons button {
+  margin: 0 1rem;
+}

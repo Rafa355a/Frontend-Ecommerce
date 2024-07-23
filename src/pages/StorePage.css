@@ -1,0 +1,37 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 200px;
+  cursor: pointer; /* Añade el cursor pointer */
+}
+
+.product-item-image {
+  height: 150px;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.product-item-info {
+  text-align: center;
+}
+
+.product-item-price {
+  color: green;
+}
+.filter-select {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

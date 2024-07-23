@@ -1,0 +1,18 @@
+.container {
+  margin-top: 20px;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-grid .MuiCard-root {
+  width: 100%;
+  max-width: 345px;
+}
+
+.card-grid .MuiCardMedia-root {
+  height: 140px;
+}

@@ -1,0 +1,29 @@
+/* src/pages/ProductDetailPage.css */
+.product-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.product-detail {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.product-detail-image {
+  height: 400px;
+  width: auto;
+  margin-right: 2rem;
+}
+
+.product-detail-info {
+  text-align: left;
+}
+
+.product-detail-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}

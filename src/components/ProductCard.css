@@ -1,0 +1,20 @@
+/* ProductCard.css */
+.product-card {
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    transition: transform 0.2s ease-in-out; /* Animación suave al pasar el ratón */
+    overflow: hidden; /* Asegura que los bordes redondeados no se corten */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el ratón */
+}
+
+.product-card img {
+    border-top-left-radius: 15px; /* Bordes redondeados solo en la parte superior */
+    border-top-right-radius: 15px;
+}
+
+.product-card .MuiCardContent-root {
+    padding: 16px;
+}
